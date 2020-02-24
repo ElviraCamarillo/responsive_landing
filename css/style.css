@@ -11,7 +11,6 @@ body {
     box-sizing: border-box;
 }
 
-
 /*----End General Styles----*/
 
 
@@ -80,3 +79,92 @@ body {
 
 
 /*----End Our Services Styles----*/
+/*--- start directory----*/
+{
+
+}
+footer{
+
+    background: #333650;
+    
+}
+.directory{
+    display: flex;
+    justify-content: space-between;
+}
+.colum1{
+    max-width: 600px;
+}
+.colum1 h1{
+    font-size: 22px;
+    margin: 2vw;
+    padding: 2vw;
+    margin-left: 2vw;
+    color: whitesmoke;
+    
+}
+.colum1 p{
+    font-size: 18px;
+    
+    padding: auto;
+    margin-left: 2vw;
+}
+
+.colum2{
+    max-width: 400px;
+}.colum2 h1{
+    font-size: 22px;
+
+    padding: 2vw;
+    margin-right: 2vw;
+    color: whitesmoke;
+}
+.row{
+    margin: 2vw;
+    display: flex;
+    font-size: 21px;
+  
+}
+.colum3{
+    max-width: 400px;
+}
+.colum3 h1{
+
+    font-size: 22px;
+    margin: 2vw;
+    padding: 2vw;
+    margin-right:  2vw;
+    color: whitesmoke;
+
+}
+.colum4{
+ max-width: 400px;
+}
+.colum4 h1{
+    font-size: 21px;
+    margin: 2vw;
+    padding: 2vw;
+    margin-right: 2vw;
+    color: whitesmoke;
+}
+.row1 img{
+   width: 25px;
+    height: 25px;
+    margin: .70vw;
+    margin-top: 1vw;
+ 
+ 
+}
+.colum4 label{
+    margin:1vw;
+    padding: 1.1vw;
+    margin-top: auto;
+    margin-left: auto;
+ 
+}
+@media only screen and (max-width: 640px){
+    .directory{
+        flex-direction: column;
+    }
+    
+}
