@@ -11,80 +11,98 @@ body {
     box-sizing: border-box;
 }
 
+
 /*----End General Styles----*/
 
+
 /*----banner Styles---*/
-#space_title{
-    color:white;
-    background:#263246;
+
+#space_title {
+    color: white;
+    background: #263246;
     display: flex;
-} 
-h1{
-   margin: auto;
-}
-.menu{
-    display: flex;
-    text-decoration: none;
 }
 
-ul{
+h1 {
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    text-decoration: none;
+    width: 40%;
+}
+
+ul {
     visibility: hidden;
 }
 
-li{
-    display: inline;
+li:hover {
+    border-bottom: 1px solid red;
 }
 
-#space_banner{
+li {
+    display: inline;
+    margin-right: 1em;
+}
+
+#space_banner {
     background-image: url('../assets/banner.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-   
 }
-#btn_begin{
+
+#btn_begin {
     border: red solid;
     background: red;
-    color:white;
+    color: white;
     border-radius: 3px;
 }
 
-#btn_begin:hover{
+#btn_begin:hover {
     background: none;
     color: red;
 }
-.container{
+
+.container {
     display: block;
     padding: 10vw;
 }
-h2{
+
+h2 {
     color: white;
     margin-bottom: 2%;
 }
-p{
+
+.par_banner p {
     color: white;
     margin-bottom: 2%;
 }
-@media(min-width: 520px){
-    
-    ul{
+
+@media(min-width: 520px) {
+    ul {
         list-style-type: none;
         visibility: visible;
     }
-    #space_title{
+    #space_title {
         background-color: none;
     }
-    #space_banner{
+    #space_banner {
         background-image: none;
     }
-    header{
+    header {
         background-image: url('../img/banner.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
-} 
+}
+
+
 /*----banner Styles---*/
+
+
 /*----Our Services Styles---*/
 
 .content__our__services {
@@ -150,92 +168,96 @@ p{
 
 
 /*----End Our Services Styles----*/
+
+
 /*--- start directory----*/
-{
 
-}
-footer{
+{}
 
+footer {
     background: #333650;
-    
 }
-.directory{
+
+.directory {
     display: flex;
     justify-content: space-between;
 }
-.colum1{
+
+.colum1 {
     max-width: 600px;
 }
-.colum1 h1{
+
+.colum1 h1 {
     font-size: 22px;
     margin: 2vw;
     padding: 2vw;
     margin-left: 2vw;
     color: whitesmoke;
-    
 }
-.colum1 p{
+
+.colum1 p {
     font-size: 18px;
-    
     padding: auto;
     margin-left: 2vw;
 }
 
-.colum2{
+.colum2 {
     max-width: 400px;
-}.colum2 h1{
-    font-size: 22px;
+}
 
+.colum2 h1 {
+    font-size: 22px;
     padding: 2vw;
     margin-right: 2vw;
     color: whitesmoke;
 }
-.row{
+
+.row {
     margin: 2vw;
     display: flex;
     font-size: 21px;
-  
 }
-.colum3{
+
+.colum3 {
     max-width: 400px;
 }
-.colum3 h1{
 
+.colum3 h1 {
     font-size: 22px;
     margin: 2vw;
     padding: 2vw;
-    margin-right:  2vw;
+    margin-right: 2vw;
     color: whitesmoke;
+}
 
+.colum4 {
+    max-width: 400px;
 }
-.colum4{
- max-width: 400px;
-}
-.colum4 h1{
+
+.colum4 h1 {
     font-size: 21px;
     margin: 2vw;
     padding: 2vw;
     margin-right: 2vw;
     color: whitesmoke;
 }
-.row1 img{
-   width: 25px;
+
+.row1 img {
+    width: 25px;
     height: 25px;
     margin: .70vw;
     margin-top: 1vw;
- 
- 
 }
-.colum4 label{
-    margin:1vw;
+
+.colum4 label {
+    margin: 1vw;
     padding: 1.1vw;
     margin-top: auto;
     margin-left: auto;
- 
 }
-@media only screen and (max-width: 640px){
-    .directory{
+
+@media only screen and (max-width: 640px) {
+    .directory {
         flex-direction: column;
     }
-    
 }
